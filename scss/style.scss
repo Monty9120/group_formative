@@ -9,6 +9,7 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "custom";
+
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
@@ -43,4 +44,9 @@
 // @import "carousel";
 // @import "utilities";
 // @import "print";
-@import "theme";
+// @import "theme";
+@import "hero";
+@import "featured-t";
+@import "contact";
+@import "service";
+@import "popup";
