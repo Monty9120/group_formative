@@ -1,52 +1,23 @@
-/*!
- * Bootstrap v4.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "timeline.scss";
+@import "team.scss";
+@import "contact.scss";
+@import "footer.scss";
 
+//Our Changes
 
-
-@import "../node_modules/bootstrap/scss/functions";
-@import "custom";
-
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-// @import "type";
-// @import "images";
-// @import "code";
-// @import "grid";
-// @import "tables";
-// @import "forms";
-@import "../node_modules/bootstrap/scss/buttons";
-// @import "transitions";
-// @import "dropdown";
-@import "../node_modules/bootstrap/scss/button-group";
-// @import "input-group";
-// @import "custom-forms";
-// @import "nav";
-// @import "navbar";
-// @import "card";
-// @import "breadcrumb";
-// @import "pagination";
-// @import "badge";
-// @import "jumbotron";
-// @import "alert";
-// @import "progress";
-// @import "media";
-// @import "list-group";
-// @import "close";
-// @import "modal";
-// @import "tooltip";
-// @import "popover";
-// @import "carousel";
-// @import "utilities";
-// @import "print";
-// @import "theme";
-@import "hero";
-@import "featured-t";
-@import "contact";
-@import "service";
-@import "popup";
+@import "_header_changes.scss";
+@import "_features_changes.scss";
+@import "_about_changes.scss";
+@import "_service_changes.scss";
+@import "_popup_changes.scss";
+@import "_misc_changes.scss";
