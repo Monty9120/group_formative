@@ -7,6 +7,8 @@
 @import "navbar.scss";
 @import "masthead.scss";
 @import "services.scss";
+
+@import "features_changes.scss";
 @import "portfolio.scss";
 @import "timeline.scss";
 @import "team.scss";
@@ -15,9 +17,9 @@
 
 //Our Changes
 
-@import "_header_changes.scss";
-@import "_features_changes.scss";
-@import "_about_changes.scss";
-@import "_service_changes.scss";
-@import "_popup_changes.scss";
-@import "_misc_changes.scss";
+@import "header_changes.scss";
+// @import "features_changes.scss";
+@import "about_changes.scss";
+@import "service_changes.scss";
+@import "popup_changes.scss";
+@import "misc_changes.scss";
