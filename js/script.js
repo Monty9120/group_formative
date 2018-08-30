@@ -16,19 +16,22 @@ $(function(){
 
 let key = 'xd3k9yk7ttvAceiWL3gexGrH6FNhgQpS';
 
-let urlProjects = 'https://api.behance.net/v2/users/pervinozcan/projects?client_id='+key;
+let urlProjects = 'https://api.behance.net/v2/users/pervinozcan?client_id='+key;
 
+var profileHTML = $('#templateProfile').html();
+var profileTemplate = Template7.compile(profileHTML);
 
 $.ajax({
 		
 		url:urlProjects,
 		dataType:'jsonp',
 		success:function(res){
+			var user = res.user;
+			console.log(user);
+			var output = profileTemplate(user);
+			$(output).appendTo('.profile-details')
 			
-			_(res.projects).each(function(project){
-				console.log(project);
-				
-			});
+		
 
 		}
 	});
@@ -36,4 +39,5 @@ $.ajax({
 
 });
 
-console.log('hello')
+
+
