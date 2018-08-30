@@ -6,4 +6,17 @@ $(function(){
 
 	L.marker({lat:-36.842744,lng:174.766994}).addTo(map);
 	console.log('hi')
-})
+
+	$('.col-md-4.photo').click(function(){
+   window.location.href='#';
+   });
+
+   $('.col-md-4.GD').click(function(){
+   window.location.href='#';
+   });
+
+   $('.col-md-4.advert').click(function(){
+   window.location.href='#';
+   });
+
+});
