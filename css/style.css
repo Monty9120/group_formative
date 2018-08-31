@@ -553,7 +553,67 @@ footer {
     height: 85%; }
 
 #about .timeline-image {
-  line-height: 130px; }
+  line-height: 150px; }
 
 #about .fas, #about .fab {
   font-size: 80px; }
+
+.service-pages .divider {
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  border-top: 3px solid #868e96; }
+
+.service-pages .prof-card {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em auto;
+  height: 20em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #f8f9fa; }
+  .service-pages .prof-card .profile-pic {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    height: 50%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 5em; }
+    .service-pages .prof-card .profile-pic .profile-img {
+      width: 12em;
+      height: 12em;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto 1em auto;
+      border-radius: 50%; }
+  .service-pages .prof-card .projects {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .service-pages .prof-card .projects .project-img {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+      flex: 1 0 25%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat; }
