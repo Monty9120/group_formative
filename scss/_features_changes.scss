@@ -1,9 +1,9 @@
 #portfolio{
-	border:1px blue solid;
+	// border:1px blue solid;
 	background-color: $gray-900 !important;
 	
 	.container-features{
-		border: 1px yellow solid;
+		// border: 1px yellow solid;
 		padding:0 2em;
 		width:100%;	
 			
@@ -15,14 +15,13 @@
 		}
 
 		.portfolio-item{
-			border: 1px red solid;
+			// border: 1px red solid;
 			height: 30em;
 			padding: 0;
 
 			.portfolio-link{
 				height: 100%;
 				margin:0 0.5em;
-				// position: static !important;
 
 				.portfolio-details{
 					display: flex;
@@ -36,26 +35,21 @@
 					.portfolio-hover {
 
 						.portfolio-hover-content{
-							border:1px red solid;
+							// border:1px red solid;
 						}
-						// background: fade-out($gray-600, .1) !important;
 						background: fade-out($gray-700, .1) !important;
 						z-index: 1000;
-
-
-						
-						// position: absolute !important;
 						height: 100%;
 						i{
-							color:$primary;
-
+							// color:$primary;
+							display: none;
 						}
 					}
 
 					.image-container{
 						max-height: 20em;
 						overflow: hidden;
-						border:1px green solid;
+						// border:1px green solid;
 					}
 					
 					.portfolio-caption{
@@ -76,13 +70,12 @@
 		padding:7em 0 !important;
 		.container-features{
 			padding:0 3em;
-			
-
-			.portfolio-details{
-				// margin: !important;
-			}
 		}
 	}
+}
+
+.modal-dialog{
+	margin-top: 10em !important;
 }
 .modal-content {
   max-width: 50% !important;
@@ -90,26 +83,49 @@
   padding:2em 0 !important;
 	
 	.close-modal{
-		// top: 0.5em !important;
-  //   	right: 0.5em !important;
+		
 		width: 2em !important;
     	height: 2em !important;
     	.lr{
 			height: 2em !important;
 			margin-left: 1em !important;
-			width: 2px;
+			width: 2px !important;
 			.rl{
 				height: 2em !important;
-				width: 2px;
+				width: 2px !important;
 			}
     	}
 	}
   .container {
-  	border:1px red solid;
-    // width: 50% !important;
-    h2{
-    	// font
-    }
+  	.modal-body{
+  		p{
+  			font-style: italic;
+  		}
+  		.owner-name{
+  			font-weight: bold;
+  		}
+
+  		.portfolio-website-link { 
+			font-size: 1.5em;
+			transition: all .2s ease !important; 
+			display: block;
+			&:hover{
+				transform: scale(2) !important;
+				text-decoration: none;
+			}
+		}
+	    button{
+	    	display: none;
+	    	// background-color: $gray-900;
+	    	// color: $primary;
+	    	// &:hover {
+		    //   color: $gray-900;
+		    // }
+	    }
+
+  	}
+  	
+	
 	
   }
 }

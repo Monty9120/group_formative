@@ -51,7 +51,7 @@ $(function(){
 			}
 		});
 		
-		console.log(projectid);
+		// console.log(projectid);
 	});
 
 

@@ -170,10 +170,8 @@ header.masthead {
   text-transform: none; }
 
 #portfolio {
-  border: 1px blue solid;
   background-color: #212529 !important; }
   #portfolio .container-features {
-    border: 1px yellow solid;
     padding: 0 2em;
     width: 100%; }
     #portfolio .container-features h2, #portfolio .container-features h3 {
@@ -181,7 +179,6 @@ header.masthead {
     #portfolio .container-features h3 {
       color: #fed136 !important; }
     #portfolio .container-features .portfolio-item {
-      border: 1px red solid;
       height: 30em;
       padding: 0; }
       #portfolio .container-features .portfolio-item .portfolio-link {
@@ -206,14 +203,11 @@ header.masthead {
             background: rgba(73, 80, 87, 0.9) !important;
             z-index: 1000;
             height: 100%; }
-            #portfolio .container-features .portfolio-item .portfolio-link .portfolio-details .portfolio-hover .portfolio-hover-content {
-              border: 1px red solid; }
             #portfolio .container-features .portfolio-item .portfolio-link .portfolio-details .portfolio-hover i {
-              color: #fed136; }
+              display: none; }
           #portfolio .container-features .portfolio-item .portfolio-link .portfolio-details .image-container {
             max-height: 20em;
-            overflow: hidden;
-            border: 1px green solid; }
+            overflow: hidden; }
           #portfolio .container-features .portfolio-item .portfolio-link .portfolio-details .portfolio-caption {
             padding: 2em 0.5em !important; }
 
@@ -222,6 +216,9 @@ header.masthead {
     padding: 7em 0 !important; }
     #portfolio .container-features {
       padding: 0 3em; } }
+
+.modal-dialog {
+  margin-top: 10em !important; }
 
 .modal-content {
   max-width: 50% !important;
@@ -233,12 +230,25 @@ header.masthead {
     .modal-content .close-modal .lr {
       height: 2em !important;
       margin-left: 1em !important;
-      width: 2px; }
+      width: 2px !important; }
       .modal-content .close-modal .lr .rl {
         height: 2em !important;
-        width: 2px; }
-  .modal-content .container {
-    border: 1px red solid; }
+        width: 2px !important; }
+  .modal-content .container .modal-body p {
+    font-style: italic; }
+  .modal-content .container .modal-body .owner-name {
+    font-weight: bold; }
+  .modal-content .container .modal-body .portfolio-website-link {
+    font-size: 1.5em;
+    -webkit-transition: all .2s ease !important;
+    transition: all .2s ease !important;
+    display: block; }
+    .modal-content .container .modal-body .portfolio-website-link:hover {
+      -webkit-transform: scale(2) !important;
+      transform: scale(2) !important;
+      text-decoration: none; }
+  .modal-content .container .modal-body button {
+    display: none; }
 
 #portfolio .portfolio-item {
   right: 0;
