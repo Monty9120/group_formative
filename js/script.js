@@ -8,15 +8,15 @@ $(function(){
 	console.log('hi')
 
 	$('.col-md-4.photo').click(function(){
-   window.location.href='#';
+   window.location.href='photog.htm';
    });
 
    $('.col-md-4.GD').click(function(){
-   window.location.href='#';
+   window.location.href='graphic_design.htm';
    });
 
    $('.col-md-4.advert').click(function(){
-   window.location.href='#';
+   window.location.href='advertisment.htm';
    });
 
 });
