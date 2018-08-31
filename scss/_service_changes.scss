@@ -1,0 +1,56 @@
+.service-pages{
+
+	.divider{
+		width: 90%;
+		height: 1px;
+		margin: auto;
+		border-top: 3px solid $gray-600;
+	}
+
+	.prof-card{
+		width: 80%;
+		display:flex;
+		margin: 2em auto;
+		height: 20em;
+		align-items: center;
+		justify-content: space-around;
+		background-color: $gray-100;
+
+
+
+		.profile-pic{
+			flex: 0 0 20%;
+			height: 50%;
+			flex-direction: row;
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+			margin-bottom: 5em;
+
+			.profile-img{
+				width: 12em;
+				height: 12em;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin: 0 auto 1em auto;
+				border-radius: 50%;
+			}
+		}
+
+
+		.projects{
+			flex: 0 0 70%;
+			height: 80%;
+			display: flex;
+
+			.project-img{
+				flex: 1 0 25%;
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+
+			}
+		}
+	}
+}
